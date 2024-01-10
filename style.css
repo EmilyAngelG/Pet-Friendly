@@ -1,0 +1,315 @@
+/*Importanto fontes do google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Source+Sans+Pro:wght@300;600&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(157, 217, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.menu_principal{
+    display: flex;
+    gap: 60px;
+}
+
+.Logo_inicio{
+    height: 90px;
+}
+
+.primeira_secao{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 130px;
+    margin-right: 100px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+/*Formatação de texto*/
+.titulo_1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 80px;
+    line-height: 90px;
+    color: rgb(241, 39, 72);
+}
+
+.titulo_2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.titulo_3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: rgb(241, 39, 72);
+    margin-bottom: 10px;
+}
+
+.titulo_4{
+    color: red;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.titulo_5{
+    font-family: sans-serif;
+    margin-bottom: 4%;
+    font-weight: bold;
+}
+
+.titulo_6{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(3, 91, 143);
+    margin-bottom: 2%;
+}
+
+.paragrafo_1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    text-align: start;
+}
+
+.paragrafo_2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(241, 39, 72);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/*Formatação de divs*/
+
+.div_2{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.div_dois_lados{
+    display: flex;
+    gap: 4%;
+}
+
+.div_tres_lados{
+    display: flex;
+    justify-content: center;
+}
+
+.div_3{
+    border-radius: 6%;
+    background-color: rgb(252, 252, 110);
+    height: 30em;
+    width: 33%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+
+.div_4{
+    height: 30em;
+    width: 30%;
+    text-align: start;
+    padding: 1%;
+}
+
+
+/*Foramatação de imagens*/
+.Imagem_pet{
+    height: 500px;
+}
+
+/*Formatação de seções*/
+section{
+    height: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 10%;
+    padding-left: 12%;
+}
+
+.primeira_secao{
+    padding: 0;
+}
+
+.segunda_secao{
+    background-color: rgb(157, 217, 252);
+}
+
+
+/*Formatação de listas*/
+.ul_1{
+    text-align: start;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.li_1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    margin-bottom: 4%;
+}
+
+.ul_2{
+    text-align: start;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.li_2{
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+
+.li_3{
+    font-family: sans-serif;
+    line-height: 1.5em;
+    color: rgb(195, 204, 170);
+}
+
+
+/*Formatação do carrocel*/
+.imput_slide{
+    display: none;
+}
+
+.espaço_slides{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides{
+    display: flex;
+    width: 400%;
+}
+
+.slide{
+    width: 25%;
+    height: 400px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label_slides{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 47%;
+}
+
+.label{
+    border: 1px solid white;
+    height: 13px;
+    width: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.label:hover{
+    background-color: white;
+}
+
+#slide1:checked ~ .s1{
+    margin: 0%;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -25%;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -50%;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -75%;
+}
+
+.div_2:hover{
+    cursor: pointer;
+    height: 370px;
+    width: 320px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Primeira_seção_footer{
+    display: flex;
+    justify-content:left;
+    gap: 65px;
+    padding-left: 190px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.Menu_footer{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 35px;
+    
+}
+
+.Imagem_footer{
+    height: 60px;
+}
+
+.Paragrafo_segunda_seção_footer{
+    height: 34px;
+    text-align: center;
+    background-color: rgb(157, 217, 252);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
