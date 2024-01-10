@@ -251,6 +251,52 @@ section{
     margin-left: -75%;
 }
 
+
+/**/
+.espaco_slides_2{
+    width: 90%;
+    overflow: hidden;
+}
+
+.slides_2{
+    width: 400%;
+    display: flex;
+}
+
+.slide1_2{
+    width: 25%;
+    height: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s;
+}
+
+.slide_2{
+    width: 25%;
+    height: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s;
+}
+
+#slide1_2:checked ~ .slide1_2{
+    margin: 0%;
+}
+
+#slide2_2:checked ~ .slide1_2{
+    margin-left: -25%;
+}
+
+#slide3_2:checked ~ .slide1_2{
+    margin-left: -50%;
+}
+
+#slide4_2:checked ~ .slide1_2{
+    margin-left: -75%;
+}
+
 .div_2:hover{
     cursor: pointer;
     height: 370px;
